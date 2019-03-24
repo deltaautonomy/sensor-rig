@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="39.3700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -165,10 +165,10 @@
 <hole x="80" y="58" drill="5"/>
 <hole x="5" y="49" drill="5"/>
 <hole x="5" y="4" drill="5"/>
-<text x="6.985" y="41.91" size="1.27" layer="21" rot="R90">3V3</text>
-<text x="10.16" y="24.765" size="1.27" layer="21" rot="R90">GND</text>
-<text x="10.16" y="3.175" size="1.27" layer="21" rot="R90">GND</text>
-<text x="6.985" y="20.32" size="1.27" layer="21" rot="R90">5V</text>
+<text x="9.985" y="24.91" size="1.27" layer="21" rot="R90">3V3</text>
+<text x="7" y="42" size="1.27" layer="21" rot="R90">GND</text>
+<text x="7" y="20" size="1.27" layer="21" rot="R90">GND</text>
+<text x="9.985" y="4.32" size="1.27" layer="21" rot="R90">5V</text>
 <text x="46.355" y="55.245" size="1.27" layer="21">GND</text>
 <text x="46.355" y="22.225" size="1.27" layer="21">GND</text>
 <text x="41.91" y="55.245" size="1.27" layer="21">VIN</text>
@@ -3195,12 +3195,9 @@ design rules under a new name.</description>
 <contactref element="IC3-2" pad="4"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="29.21" y1="34.29" x2="29.21" y2="49.53" width="2.794" layer="16"/>
-<wire x1="29.21" y1="49.53" x2="29.4386" y2="49.7586" width="2.794" layer="16"/>
-<wire x1="29.4386" y1="49.7586" x2="29.4386" y2="51.24941875" width="2.794" layer="16"/>
-<wire x1="29.4386" y1="51.24941875" x2="32.79918125" y2="54.61" width="2.794" layer="16"/>
-<wire x1="32.79918125" y1="54.61" x2="38.1" y2="54.61" width="2.794" layer="16"/>
-<wire x1="38.1" y1="54.61" x2="41.91" y2="58.42" width="2.794" layer="16"/>
+<wire x1="29.21" y1="34.29" x2="29.21" y2="49.53" width="2.032" layer="16"/>
+<wire x1="32.79918125" y1="54.61" x2="38.1" y2="54.61" width="2.032" layer="16"/>
+<wire x1="38.1" y1="54.61" x2="41.91" y2="58.42" width="2.032" layer="16"/>
 <wire x1="46.102240625" y1="62.612240625" x2="41.91" y2="58.42" width="2.794" layer="16"/>
 <wire x1="41.91" y1="58.42" x2="44.45" y2="58.42" width="2.032" layer="16"/>
 <wire x1="59.77" y1="60" x2="57.157759375" y2="62.612240625" width="2.794" layer="16"/>
@@ -3210,6 +3207,8 @@ design rules under a new name.</description>
 <wire x1="56" y1="56" x2="59.77" y2="59.77" width="0.254" layer="1"/>
 <wire x1="59.77" y1="59.77" x2="59.77" y2="60" width="0.254" layer="1"/>
 <wire x1="65.715" y1="28.285" x2="56" y2="38" width="0.254" layer="1"/>
+<wire x1="29.21" y1="49.53" x2="29.21" y2="51.02081875" width="2.032" layer="16"/>
+<wire x1="29.21" y1="51.02081875" x2="32.79918125" y2="54.61" width="2.032" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
@@ -3281,10 +3280,10 @@ design rules under a new name.</description>
 <wire x1="45.72" y1="30.48" x2="59.69" y2="30.48" width="2.794" layer="1"/>
 <wire x1="59.89" y1="23.65" x2="62.585" y2="20.955" width="0.254" layer="1"/>
 <wire x1="62.585" y1="20.955" x2="62.865" y2="20.955" width="1.27" layer="1"/>
-<wire x1="44.45" y1="25.4" x2="41.91" y2="25.4" width="2.794" layer="1"/>
 <wire x1="41.91" y1="25.4" x2="41.91" y2="26.67" width="2.794" layer="1"/>
 <wire x1="41.91" y1="26.67" x2="45.72" y2="30.48" width="2.794" layer="1"/>
 <wire x1="41.91" y1="25.4" x2="37.89" y2="21.38" width="1.27" layer="16"/>
+<wire x1="41.91" y1="25.4" x2="44.45" y2="25.4" width="2.032" layer="1"/>
 </signal>
 <signal name="JETSON">
 <contactref element="F2" pad="2"/>
